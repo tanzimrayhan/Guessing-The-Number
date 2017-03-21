@@ -1,5 +1,5 @@
 #include<iostream>
-#include<cstdlib>
+#include<cstdlib> //To generate a random number
 #include<ctime>
 using namespace std;
 
@@ -8,7 +8,7 @@ int main() {
 	srand(seed);
 
 	int a, b, count=0;
-	a = rand()%100 ;
+	a = rand()%100 ; //Generating a random number inside 100.
 	cout << "The computer has a randomized number stored in the memory \nGuess the number " << endl;
 	cin >> b;
 
